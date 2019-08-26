@@ -24,10 +24,9 @@ layout: default
         {%- if site.show_excerpts -%}
           {{ post.excerpt }}
         {%- endif -%}
-        <p> Technologies:
-          {%- for category in post.categories -%}
-          {{ category }}
-          {%- endfor -%} 
+        <p> Technologies: {%- for category in post.categories -%}
+           {{ category }}
+          {%- endfor -%}
         </p>
       </li>
       {%- endfor -%}
