@@ -1,5 +1,5 @@
-title: Your awesome title
-author: GitHub User
+title: Artem Shramko
+author: Artem Shramko
 email: your-email@domain.com
 description: > # this means to ignore newlines until "show_excerpts:"
   Write an awesome description for your new site here. You can edit this
@@ -12,22 +12,21 @@ show_excerpts: false # set to true to show excerpts on the homepage
 # refer to https://shopify.github.io/liquid/filters/date/ if you want to customize this
 minima:
   date_format: "%b %-d, %Y"
-
   # generate social links in footer
   social_links:
-    twitter: jekyllrb
-    github:  jekyll
+    #twitter: jekyllrb
+    github:  shramkoartem
     rss: rss
     # dribbble: jekyll
     # facebook: jekyll
     # flickr:   jekyll
-    # instagram: jekyll
-    # linkedin: jekyll
+     instagram: shram.co
+     linkedin: artemshramko
     # pinterest: jekyll
     # youtube: jekyll
     # youtube_channel: UC8CXR0-3I70i1tfPg1PAE1g
     # youtube_channel_name: CloudCannon
-    # telegram: jekyll
+    # telegram: shram_co
     # googleplus: +jekyll
     # microdotblog: jekyll
 
@@ -45,6 +44,8 @@ minima:
 
 # Build settings
 theme: minima
+
+show_excerpts: True
 
 plugins:
  - jekyll-feed
