@@ -35,8 +35,10 @@ theme: minima
 plugins:
   - jekyll-feed
 
-list_title: Projects
+#list_title: Projects
 show_excerpts: True
+
+markdown: maruku
 # Exclude from processing.
 # The following items will not be processed, by default.
 # Any item listed under the `exclude:` key here will be automatically added to
