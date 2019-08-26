@@ -4,9 +4,11 @@ email: your-email@domain.com
 description: >- # this means to ignore newlines until "show_excerpts:"
   "Feed free to contact if you are interested in hiring me as Data Scientist".
 
- # set to true to show excerpts on the homepage
+# set to true to show excerpts on the homepage
+ 
 markdown: kramdown
 show_excerpts: True
+highlighter: rouge
 # Minima date format
 # refer to https://shopify.github.io/liquid/filters/date/ if you want to customize this
 minima:
@@ -40,7 +42,7 @@ minima:
 # this and add the path to the pages in order as they should show up
 #header_pages:
 # - about.md
-
+url: "https://shram.co/"
 # Build settings
 theme: minima
 
