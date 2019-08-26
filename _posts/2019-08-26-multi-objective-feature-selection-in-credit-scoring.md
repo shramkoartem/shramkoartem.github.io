@@ -23,19 +23,27 @@ Business problems are multi-objective by their nature. As a bank, you want to ma
 
 The proposed algorithm uses a [Pareto-based approach](https://en.wikipedia.org/wiki/Pareto_efficiency) for optimizing multiple objectives simultaneously.
 
+The algorithm is a [wrapper feature selection approach](https://sebastianraschka.com/faq/docs/feature_sele_categories.html), meaning that the optimal subset is chosen based on the model performance.
 The optimization part is based on a [genetic algorithm](https://en.wikipedia.org/wiki/Genetic_algorithm).
 The main idea is can be presented as follows:
-1. Generate $ n $ random subsets. Together they form a so called *population*
+1. Generate *n* random subsets. Together they form a so called *population*
+
 2. Train the model on each of the subsets (*individuals*) in the population and evaluate respective performance.  
-3. Rank the individuals based on their performance and take top *m*, $ m < n $
+3. Rank the individuals based on their performance and take top *m*, *m < n*
+
 4. Perform crossover operation. Basically this step means that you randomly select a pair of subsets and "make babies", i.e. produce new subsets, that inherit included features from their parents. Usually an individual is represented as a binary string, its length equals the number of features in the dataset. 1 = feature is included. Thus the baby string is formed by inheriting 1 or 0 for each feature from its parents with equal probability.
+
 5. Combine baby set with parents set to produce new *generation*
+
 6. What we want to achieve by repeating steps 1 through 5 is *convergence*, meaning that we expect to discover some pattern in genes, where better performing subsets are more likely to include some certain features and leave out some others.
+
 7. In the end, you obtain a set of best performing subsets.
 
-I have written an adaptation in R of Non-Dominated Sorting Genetic Algorithm - III, presented by K. Deb in 2013. You can find all the details regarding the algorithm in the original [paper](https://www.egr.msu.edu/~kdeb/papers/k2012009.pdf).
+For this thesis I have written an adaptation in R of Non-Dominated Sorting Genetic Algorithm - III, presented by K. Deb in 2013. You can find all the details regarding the algorithm in the original [paper](https://www.egr.msu.edu/~kdeb/papers/k2012009.pdf).
 
+Credit Scoring is a classical use case for supervised Machine Learning. It is a binary classification problem, and since there is a word *classification* in the setup and its 2019 on the calendar, not hard to guess that I've used [XGBoost](https://xgboost.readthedocs.io/en/latest/).
 
+### Objectives
 
 
 
