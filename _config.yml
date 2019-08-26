@@ -1,11 +1,12 @@
 title: Artem Shramko
 author: Artem Shramko
 email: your-email@domain.com
-description: > # this means to ignore newlines until "show_excerpts:"
-  Feed free to contact if you are interested in hiring me as Data Scientist
+description: >- # this means to ignore newlines until "show_excerpts:"
+  "Feed free to contact if you are interested in hiring me as Data Scientist".
 
-show_excerpts: true # set to true to show excerpts on the homepage
-
+ # set to true to show excerpts on the homepage
+markdown: kramdown
+show_excerpts: True
 # Minima date format
 # refer to https://shopify.github.io/liquid/filters/date/ if you want to customize this
 minima:
