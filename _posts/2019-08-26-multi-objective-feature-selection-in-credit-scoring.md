@@ -10,3 +10,5 @@ Multi-Objective Feature Selection in Credit Scoring was the title of my Master t
 
 ### Introduction
 $a \ne 0$
+
+$$ 2 + x^2 = 11 $$
