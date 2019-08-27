@@ -20,7 +20,7 @@ permalink: /resume/
 
 ### Skills
 
-- **Programming languages**: Python, R, Java
-- **Technologies and tools**: Hadoop, Spark, Kafka, Hive, Pig
-- **Platforms**: GCP, AWS
-- **DB**: MySQL, PostgreSQL, MongoDB
+- *Programming languages*: Python, R, Java
+- *Technologies and tools*: Hadoop, Spark, Kafka, Hive, Pig
+- *Platforms*: GCP, AWS
+- *DB*: MySQL, PostgreSQL, MongoDB
