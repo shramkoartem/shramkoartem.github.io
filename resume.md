@@ -17,3 +17,10 @@ permalink: /resume/
 - MSc. Economics and Statistics, [Humboldt University of Berlin](https://www.hu-berlin.de/), 2015-2019, GPA: 1.5 (Excellent)
 
 - BSc. Mathematics, [FernUniversitaet in Hagen](https://fernuni-hagen.de/), 2019 - currently
+
+### Skills
+
+- **Programming languages**: Python, R, Java
+- **Technologies and tools**: Hadoop, Spark, Kafka, Hive, Pig
+- **Platforms**: GCP, AWS
+- **DB**: MySQL, PostgreSQL, MongoDB
