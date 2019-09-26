@@ -1,18 +1,6 @@
 title: Artem Shramko
 author: Artem Shramko
 email: artem@shram.co
-<<<<<<< HEAD
-description: >- # this means to ignore newlines until "baseurl:"
-  My portfolio
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://shram.co/" # the base hostname & protocol for your site, e.g. http://example.com
-#twitter_username: jekyllrb
-github_username:  shramkoartem
-linkedin_username: artemshramko
-instagram_username: shram.co
-
-
-=======
 description: >- # this means to ignore newlines until "show_excerpts:"
   Hit me up if you are interested in hiring me as Data Scientist.
 
@@ -56,7 +44,6 @@ minima:
 #header_pages:
 # - about.md
 url: "https://shram.co/"
->>>>>>> 0da5c2c79d61ba85ec7161406f2078283eae3b71
 # Build settings
 theme: minima
 
